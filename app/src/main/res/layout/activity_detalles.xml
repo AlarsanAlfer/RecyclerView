@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detalles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:id="@+id/tituloP"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="10dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="189dp"
+        android:layout_height="248dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="43dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/descripcionP"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="14dp"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="358dp"
+        android:layout_height="81dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/anioP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/duracionP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView" />
+
+</LinearLayout>
